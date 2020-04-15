@@ -1,5 +1,7 @@
 package com.banjomann.viviscription.items;
 
+import com.banjomann.viviscription.Viviscription;
+
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 

@@ -17,5 +17,6 @@ public class RegistryHandler {
 	}
 	
 	//Items
-	public static final RegistryObject<Item> VIVID_TOME = ITEMS.register("vivid_tome", ItemBase::new);	
+	public static final RegistryObject<Item> VIVID_TOME = ITEMS.register("vivid_tome", ItemBase::new);
+	public static final RegistryObject<Item> VIVID_DUST = ITEMS.register("vivid_dust", ItemBase::new);
 }
