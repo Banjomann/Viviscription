@@ -2,6 +2,8 @@ package com.banjomann.viviscription;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -38,6 +40,13 @@ public class Viviscription
     private void setup(final FMLCommonSetupEvent event) { }
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
+    
+    public static final ItemGroup TAB = new ItemGroup("viviscriptionTab") {
+    	@Override
+    	public ItemStack createIcon() {
+    		return new ItemStack(RegistryHandler.VIVID_DUST.get());
+    	}
+    };
     
     @SubscribeEvent
     public void onServerStarting(FMLServerStartingEvent event) {
