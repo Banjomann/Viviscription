@@ -18,7 +18,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.banjomann.viviscription.util.RegistryHandler;
+import com.banjomann.viviscription.common.items.VItems;
 
 import java.util.stream.Collectors;
 
@@ -32,8 +32,6 @@ public class Viviscription
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
         
-        RegistryHandler.init();
-        
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -44,7 +42,7 @@ public class Viviscription
     public static final ItemGroup TAB = new ItemGroup("viviscriptionTab") {
     	@Override
     	public ItemStack createIcon() {
-    		return new ItemStack(RegistryHandler.VIVID_DUST.get());
+    		return new ItemStack(VItems.vivid_dust);
     	}
     };
     

@@ -1,5 +1,6 @@
 {
 	"item.viviscription.vivid_tome" : "Vivid Tome",
 	"item.viviscription.vivid_dust" : "Vivid Dust",
+	"block.viviscription.vivid_ore" : "Vivid Ore",
 	"itemGroup.viviscriptionTab" : "Viviscription"
 }
