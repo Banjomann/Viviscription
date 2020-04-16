@@ -12,13 +12,11 @@ version="1.15.2-1.0.0" #mandatory
 
 displayName="Vivicraft" #mandatory
 
-logoFile="logo_forgebig.png" #optional
+logoFile="vivicraft_logo.png" #optional
 
 authors="Banjomann" #optional
 
-description='''
-     From Latin roots "vivus" (alive) and "scribere" (to write).
-'''
+description='''     The base libraries and API for Vivicraft'''
 
 [[dependencies.vivicraft]] #optional
     modId="forge" #mandatory
