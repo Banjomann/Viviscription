@@ -1,0 +1,7 @@
+{
+	"variants" : {
+		"" : {
+			"model" : "vivicraft:block/vivid_ore"
+		}
+	}
+}

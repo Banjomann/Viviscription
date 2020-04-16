@@ -1,12 +1,8 @@
-package com.banjomann.viviscription.common.blocks;
-
-import com.banjomann.viviscription.Viviscription;
+package com.banjomann.vivicraft.common.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 
 public class VBlockBase extends Block {	

@@ -43,7 +43,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                viviscription {
+                vivicraft {
                     source sourceSets.main
                 }
             }
@@ -59,7 +59,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                viviscription {
+                vivicraft {
                     source sourceSets.main
                 }
             }
@@ -74,10 +74,10 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'viviscription', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'vivicraft', '--all', '--output', file('src/generated/resources/')
 
             mods {
-                viviscription {
+                vivicraft {
                     source sourceSets.main
                 }
             }
@@ -115,7 +115,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "Viviscription",
+            "Specification-Title": "Vivicraft",
             "Specification-Vendor": "Banjomann",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,

@@ -1,6 +1,6 @@
-package com.banjomann.viviscription.common.items;
+package com.banjomann.vivicraft.common.items;
 
-import com.banjomann.viviscription.Viviscription;
+import com.banjomann.vivicraft.Vivicraft;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -9,8 +9,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.ObjectHolder;
 
-@Mod.EventBusSubscriber(modid = Viviscription.MOD_ID, bus = Bus.MOD)
-@ObjectHolder(Viviscription.MOD_ID)
+@Mod.EventBusSubscriber(modid = Vivicraft.MOD_ID, bus = Bus.MOD)
+@ObjectHolder(Vivicraft.MOD_ID)
 public class VItems {
 	
 	public static final Item vivid_tome = null;

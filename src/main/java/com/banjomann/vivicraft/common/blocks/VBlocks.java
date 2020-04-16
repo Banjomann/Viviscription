@@ -1,6 +1,6 @@
-package com.banjomann.viviscription.common.blocks;
+package com.banjomann.vivicraft.common.blocks;
 
-import com.banjomann.viviscription.Viviscription;
+import com.banjomann.vivicraft.Vivicraft;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -13,8 +13,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.registries.ObjectHolder;
 
-@Mod.EventBusSubscriber(modid = Viviscription.MOD_ID, bus = Bus.MOD)
-@ObjectHolder(Viviscription.MOD_ID)
+@Mod.EventBusSubscriber(modid = Vivicraft.MOD_ID, bus = Bus.MOD)
+@ObjectHolder(Vivicraft.MOD_ID)
 public class VBlocks {
 	public static final Block vivid_ore = null;
 	
@@ -31,6 +31,6 @@ public class VBlocks {
 	}
 	
 	private static void registerBlockItem(RegistryEvent.Register<Item> event, Block block) {
-		event.getRegistry().register(new BlockItem(block, new Item.Properties().group(Viviscription.TAB).maxStackSize(64)).setRegistryName(block.getRegistryName()));
+		event.getRegistry().register(new BlockItem(block, new Item.Properties().group(Vivicraft.TAB).maxStackSize(64)).setRegistryName(block.getRegistryName()));
 	}
 }

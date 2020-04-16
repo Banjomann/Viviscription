@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "viviscription:vivid_ore"
+              "name": "vivicraft:vivid_ore"
             },
             {
               "type": "minecraft:item",
@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "viviscription:vivid_dust"
+              "name": "vivicraft:vivid_dust"
             }
           ]
         }

@@ -1,34 +1,26 @@
-package com.banjomann.viviscription;
+package com.banjomann.vivicraft;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.banjomann.viviscription.common.items.VItems;
+import com.banjomann.vivicraft.common.items.VItems;
 
-import java.util.stream.Collectors;
-
-@Mod("viviscription")
-public class Viviscription
+@Mod("vivicraft")
+public class Vivicraft
 {
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "viviscription";
+    public static final String MOD_ID = "vivicraft";
 
-    public Viviscription() {
+    public Vivicraft() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
         
@@ -39,7 +31,7 @@ public class Viviscription
 
     private void doClientStuff(final FMLClientSetupEvent event) { }
     
-    public static final ItemGroup TAB = new ItemGroup("viviscriptionTab") {
+    public static final ItemGroup TAB = new ItemGroup("vivicraftTab") {
     	@Override
     	public ItemStack createIcon() {
     		return new ItemStack(VItems.vivid_dust);

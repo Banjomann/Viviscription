@@ -1,6 +1,6 @@
 {
 	"parent" : "item/generated",
 	"textures" : {
-		"layer0" : "viviscription:items/vivid_dust"
+		"layer0" : "vivicraft:items/vivid_dust"
 	}
 }

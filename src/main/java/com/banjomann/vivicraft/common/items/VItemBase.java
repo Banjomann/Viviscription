@@ -1,12 +1,12 @@
-package com.banjomann.viviscription.common.items;
+package com.banjomann.vivicraft.common.items;
 
-import com.banjomann.viviscription.Viviscription;
+import com.banjomann.vivicraft.Vivicraft;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 
 public class VItemBase extends Item {
-	public VItemBase(String name) { this(name, new Item.Properties().group(Viviscription.TAB)); }
+	public VItemBase(String name) { this(name, new Item.Properties().group(Vivicraft.TAB)); }
 	public VItemBase(String name, Properties properties) {
 		super(properties);
 		setRegistryName(name);
