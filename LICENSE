@@ -1,30 +1,36 @@
 Banjomann's License
+====================================
 
 All rights reserved.
 
-~~~~~~~~~~~~~~~~~~~
-
 All contents of this code repository herein are owned, copyrighted, and property of Banjomann.
 
-The following details a visible-source license under which the aforementioned property is provided:
+The following details a visible source license under which the aforementioned property is provided:
 
-This license permits the usage of any and all contents of this repository for the purposes of:
+This license permits the usage of any and all compiled or source content of this repository for the following purposes:
 
-* Education; learning or obtaining inspiration from the original source code or additional assets
+* Education; learning or obtaining inspiration from the original source content
+
 * Contribution; pull requests are openly welcome and will be stringently reviewed
-* Extension; external projects not written or maintained by the original author may use this project as a basis
-* Private use; this source code can be forked and modified at will, as long as it does not violate any of the below stipulations
+    * The original author of any provided content retains copyright of any contributions
+    * The owner of this repository has full rights to use and modify any and all contributed content
+    * Any content contributed to this project is forthwith subject to this license as source content
 
-This license prohibits the usage of any and all contents of this repository for the purposes of:
+* Extension; external projects not written or maintained by the original author may use this project's compiled content as is to build addons
 
-* Commercialism; no versions of this code will ever be monetized for any reasons whatsoever, this includes:
-    * The original compiled mod; the binaries that will be distributed by the original author through various means will not be monetized by any means, that includes url shortening services (ad.fly) or any kind of paywall
-    * ANY derivative work; that is, any version of the source code or compiled binaries that originate from this repository (forks, branches, etc.)
-* Redistribution; no versions of this code (derivative or otherwise) will ever be redistributed outside of the author's deliberate authorization, that is they are given written (electronic or otherwise) permission directly from the code's author
-    * This excludes INCLUSION in modpacks on curseforge.com explicitly
-* Unattributed use; all authorized derivative and redistributed works of this code must directly attribute the original author, including a link to the original source
-* Thievery; any usage of any versions of this code that does not fall within the above mentioned stipulations will be considered intentional thievery
+* Privatization; this source content can be forked and modified at will for personal use for anybody other than the author, as long as it does not violate any of the below stipulations
+    * This includes copying any considerable portion of source code (classes, functions, etc.) or any assets
+    * Under this permission, this designates the copied or modified source content, any further derivations, and any compiled content thereof as derivative work
+    * Any extensions, addons, or derivative works must provide proper credit to the original author
+    * Any derivative works (this excludes extensions or addons) must be visible source
 
-Failure to comply with these stipulations set forth is a violation of copyright law and will be dealt with accordingly.
+This license prohibits the usage of any and all compiled or source content of this repository for the following purposes:
+
+* Commercialization; none of this project's source or compiled content, or derivative work will ever be monetized
+    * This includes paywalls and advertisements of any and all varieties (ad.fly, etc.)
+
+* Redistribution; none of this project's source or compiled content may be distributed without explicit permissions of the license holder, Banjomann
+
+The authors or copyright holders are not liable for any claim, damages or other liability, whether in actions of contract, tort or other, arising from, out of or in connection to this project, its use, or related projects.
 
 © 2020 Banjomann
