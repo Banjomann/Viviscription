@@ -20,5 +20,5 @@ public class VBlockBase extends Block {
 	
 	public void register(RegistryEvent.Register<Block> event) {
 		event.getRegistry().register(this);
-	}
+	} 
 }
