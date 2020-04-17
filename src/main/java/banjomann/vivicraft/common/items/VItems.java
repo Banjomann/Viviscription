@@ -1,7 +1,6 @@
-package com.banjomann.vivicraft.common.items;
+package banjomann.vivicraft.common.items;
 
-import com.banjomann.vivicraft.Vivicraft;
-
+import banjomann.vivicraft.Vivicraft;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

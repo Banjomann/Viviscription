@@ -1,7 +1,7 @@
 {
-	"variants" : {
-		"" : {
-			"model" : "vivicraft:block/vivid_ore"
+	"variants": {
+		"": {
+			"model": "vivicraft:block/vivid_ore"
 		}
 	}
 }

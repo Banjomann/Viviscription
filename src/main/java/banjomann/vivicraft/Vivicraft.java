@@ -1,4 +1,4 @@
-package com.banjomann.vivicraft;
+package banjomann.vivicraft;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -12,7 +12,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.banjomann.vivicraft.common.items.VItems;
+import banjomann.vivicraft.common.items.VItems;
 
 @Mod("vivicraft")
 public class Vivicraft

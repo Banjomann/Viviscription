@@ -1,7 +1,6 @@
-package com.banjomann.vivicraft.common.blocks;
+package banjomann.vivicraft.common.blocks;
 
-import com.banjomann.vivicraft.Vivicraft;
-
+import banjomann.vivicraft.Vivicraft;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

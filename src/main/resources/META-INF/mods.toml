@@ -8,7 +8,7 @@ issueTrackerURL="https://github.com/Banjomann/Vivicraft/issues" #optional
 
 modId="vivicraft" #mandatory
 
-version="1.15.2-1.0.0" #mandatory
+version="${version}" #mandatory
 
 displayName="Vivicraft" #mandatory
 
