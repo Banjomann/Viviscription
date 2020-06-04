@@ -6,6 +6,7 @@ buildscript {
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath 'org.ajoberstar.grgit:grgit-gradle:4.0.2'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
@@ -13,7 +14,6 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '0.0.0'
 group = 'banjomann.vivicraft'
 archivesBaseName = 'vivicraft'
 
@@ -29,6 +29,19 @@ sourceSets {
         }
     }
 }
+
+String enforceVersion() {
+	def versStdOut = new ByteArrayOutputStream()
+	
+	exec {
+		commandLine 'cmd', '/c', 'preBuild.sh'
+		standardOutput = versStdOut
+	}
+	
+	return versStdOut.toString()
+}
+
+version = enforceVersion()
 
 processResources {
 	from(sourceSets.main.resources.srcDirs) {
