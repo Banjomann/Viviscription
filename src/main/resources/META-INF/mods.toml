@@ -8,7 +8,7 @@ issueTrackerURL="https://github.com/Banjomann/Viviscription/issues" #optional
 
 modId="viviscription" #mandatory
 
-version="${file.jarVersion}" #mandatory
+version="${version}" #mandatory
 
 displayName="Viviscription" #mandatory
 
