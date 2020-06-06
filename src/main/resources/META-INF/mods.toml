@@ -2,32 +2,30 @@ modLoader="javafml" #mandatory
 
 loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
-issueTrackerURL="https://github.com/Banjomann/Viviscription/issues" #optional
+issueTrackerURL="https://github.com/Banjomann/Vivicraft/issues" #optional
 
 [[mods]] #mandatory
 
-modId="viviscription" #mandatory
+modId="vivicraft" #mandatory
 
 version="${version}" #mandatory
 
-displayName="Viviscription" #mandatory
+displayName="Vivicraft" #mandatory
 
-logoFile="logo_forgebig.png" #optional
+logoFile="vivicraft_logo.png" #optional
 
 authors="Banjomann" #optional
 
-description='''
-     From Latin roots "vivus" (alive) and "scribere" (to write).
-'''
+description='''     The base libraries and API for Vivicraft'''
 
-[[dependencies.viviscription]] #optional
+[[dependencies.vivicraft]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
     versionRange="[31,)" #mandatory
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.viviscription]]
+[[dependencies.vivicraft]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"

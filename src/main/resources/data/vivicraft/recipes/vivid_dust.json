@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+    	{
+    		"item": "vivicraft:vivid_dust_block"
+    	}
+	],
+    "result":
+    {
+        "item": "vivicraft:vivid_dust",
+        "count": 9
+    }
+}
